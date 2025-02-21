@@ -5,12 +5,12 @@
 	// Iteration control and command-line inputs
 	"RunControl": {
         // Run sequence
-        "PhaseSequece": [0],
+        "PhaseSequence": [0],
         "PhaseIters": [200],
         // System configuration
-	    "nProc": 4,
-        "MPI": 0,
-        "Adaptive": 0,
+	    "nProc": 64,
+        "MPI": false,
+        "Adaptive": false,
 	    // Options for ``flowCart``
 	    "flowCart": {
             "it_fc": 200,
